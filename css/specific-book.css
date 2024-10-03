@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-check{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+}
+
+._container {
+    display: flex;
+    align-items: center;
+    max-width: 1700px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    box-sizing: content-box;
+}
+
+.header {
+    min-height: 80px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #bdbdbd;
+    justify-content: space-between;
+}
+.header__container {
+    
+}
+.header__logo a {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(84, 84, 84);
+}
+.header__action {
+    display: flex;
+    align-items: center;
+}
+/* .action-header {
+    
+} */
+.action-header__icon {
+    margin-right: 10px;
+    text-decoration: none;
+}
+._icon-cart {
+    
+}
+.action-header__button {
+}
+.button {
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid rgb(84, 84, 84);
+    font-size: 16px;
+}
+
+.button span{
+    font-size: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.button:hover{
+    background-color: #eab68b;
+    box-shadow: 2px 0px 10px 2px #5a5b5c;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid rgb(95, 98, 100);
+}
+
+.action-header__icon{
+    margin-left: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+
+._icon-user {
+    
+}
+
+
+.page{
+    flex: 1 1 auto ;
+}
